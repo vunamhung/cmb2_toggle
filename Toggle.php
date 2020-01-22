@@ -14,7 +14,7 @@ class Toggle {
 
 	public function callback($field, $escaped_value, $object_id, $object_type, \CMB2_Types $field_type_object) {
 		$field_name = $field->_name();
-		$active_value = !empty($field->args('active_value')) ? $field->args('active_value') : 'on';
+		$active_value = !empty($field->args('active_value')) ? $field->args('active_value') : '1';
 
 		$args = [
 			'type' => 'checkbox',
