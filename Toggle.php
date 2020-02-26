@@ -1,6 +1,6 @@
 <?php
 
-namespace vunamhung\cmb2;
+namespace vnh\cmb2;
 
 class Toggle {
 	public function __construct() {
